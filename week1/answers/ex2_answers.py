@@ -119,7 +119,10 @@ graph TD;
 
 # Compare the LangGraph graph to exercise3_rasa/data/rules.yml. Min 30 words.
 TASK_D_COMPARISON = """
-FILL ME IN
+The LangGraph graph is a single loop. The model basically decides at every step what to do next,
+with all routing explained inside the agent node. Rasa CALM's flows.yml makes every possible
+path explicit and readable: collect guest_count, then vegan_count, then deposit, then validate.
+LangGraph is flexible but unpredictable, while CALM is auditable but constrained to defined flows.
 """
 
 # ── Reflection ─────────────────────────────────────────────────────────────
@@ -128,5 +131,10 @@ FILL ME IN
 # Must reference a specific behaviour from your run.
 
 MOST_SURPRISING = """
-FILL ME IN
+The most surprising behaviour was in Scenario 3, when we asked about the last train from Edinburgh
+to London. Instead of just saying 'I don't know', the LangGraph agent recognised it had
+no relevant tool, explained its reasoning and proactively suggested specific platforms
+like National Rail Enquiries and ScotRail where we could find the answer. It also offered to refocus
+on tasks it could actually help with, which is showing out-of-scope handling without any explicit
+rules telling it to do so
 """
