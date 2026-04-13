@@ -34,11 +34,11 @@ Repeat) is the same structure it will use when it's booking venues autonomously.
 
 HOW TO RUN
 -----------
-    python week1/exercise2_langgraph.py             # all tasks
-    python week1/exercise2_langgraph.py task_a      # main brief
-    python week1/exercise2_langgraph.py task_b      # 4th tool demo
-    python week1/exercise2_langgraph.py task_c      # failure modes
-    python week1/exercise2_langgraph.py task_d      # graph structure
+    python3 week1/exercise2_langgraph.py             # all tasks
+    python3 week1/exercise2_langgraph.py task_a      # main brief
+    python3 week1/exercise2_langgraph.py task_b      # 4th tool demo
+    python3 week1/exercise2_langgraph.py task_c      # failure modes
+    python3 week1/exercise2_langgraph.py task_d      # graph structure
 
 Results saved to week1/outputs/ex2_results.json.
 Then fill in week1/answers/ex2_answers.py.
