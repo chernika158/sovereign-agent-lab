@@ -29,7 +29,7 @@ TASK_A_NOTES = ""   # optional — anything unexpected
 # ── Task B ─────────────────────────────────────────────────────────────────
 
 # Has generate_event_flyer been implemented (not just the stub)?
-TASK_B_IMPLEMENTED = None   # True or False
+TASK_B_IMPLEMENTED = True   # True or False
 
 # The image URL returned (or the error message if still a stub).
 TASK_B_IMAGE_URL_OR_ERROR = "https://pictures-storage.storage.eu-north1.nebius.cloud/text2img-4a759a56-1789-4b02-86d9-f8b3669a0c11_00001_.webp"
